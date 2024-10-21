@@ -96,9 +96,9 @@ execution:
     options: rw
   - type: host
     target: /project/kaggle/input/
-    description: Kaggle input directory (For WINDOWS systems, specify the WSL path, eg. /mnt/c/Users/user)
+    description: Kaggle input directory (For WINDOWS systems, specify the WSL path, eg. /mnt/c/Path/To/Src)
     options: ""
   - type: host
     target: /project/kaggle/output/
-    description: Kaggle output directory (For WINDOWS systems, specify the WSL path, eg. /mnt/c/Users/user)
+    description: Kaggle output directory (For WINDOWS systems, specify the WSL path, eg. /mnt/c/Path/To/Src)
     options: ""
