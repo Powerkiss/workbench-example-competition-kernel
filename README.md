@@ -65,6 +65,8 @@ AI Workbench will prompt you to provide a few pieces of information before runni
    * A Kaggle Username. You can find this in ``kaggle.json`` when you click "Create New Token" [here](https://www.kaggle.com/settings).
    * A Kaggle API Key. You can find this in ``kaggle.json`` when you click "Create New Token" [here](https://www.kaggle.com/settings).
 
+Alternatively, if you prefer working directly with the ``kaggle.json`` credential file, you can delete the above secrets and add your ``kaggle.json`` file directly at the top level of this project repository. However, you may need to run a ``chmod 600 /path/to/kaggle.json`` to prevent other users from reading your file. 
+
 ## Tutorial (Desktop App)
 
 If you do not NVIDIA AI Workbench installed, first complete the installation for AI Workbench [here](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/). 
@@ -94,6 +96,8 @@ Let's get started!
 6. On the top right of the AI Workbench window, select **Open Jupyterlab**. A frontend user interface should automatically open in a new browser tab.
 
 7. Open ``kaggle/working/01-data.ipynb`` and get started. It's that easy!
+
+    * You may see a ``PermissionError: [Errno 13] Permission denied: '/tmp/kaggle.log'`` message as you are using the Kaggle API. This is expected and does not affect any results. 
 
 ## Tutorial (CLI)
 
